@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formular programare</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="culoare">Formular programare pacienti</h1>
+    <p style="color: red">
+      *Pentru urgente apelati la numarul de telefon 0000000000*
+    </p>
+    <img
+      src="https://png.pngtree.com/png-vector/20190228/ourmid/pngtree-tooth-dental-icon-design-template-vector-illustration-png-image_710399.jpg"
+      alt="tooth"
+      width="50px"
+    />
+    <form class="align" >
+      <fieldset class="size">
+        <legend class="culoare">Detalii programare:</legend>
+
+        <label class="culoare" for="zi">Ziua in care doriti programarea:</label>
+        <select name="Zi" id="zi">
+          <option value="1">Luni</option>
+          <option value="2">Marti</option>
+          <option value="3">Miercuri</option>
+          <option value="4">Joi</option>
+          <option value="5">Vineri</option></select
+        ><br />
+        <label class="culoare" for="ora">Intervalul orar dorit:</label>
+        <select name="ora" id="ora">
+          <option value="1">9-10</option>
+          <option value="2">10-11</option>
+          <option value="3">11-12</option>
+          <option value="4">12-13</option>
+          <option value="5">13-14</option>
+          <option value="6">14-15</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend class="culoare">Date personale:</legend>
+        <label class="culoare" for="prenume">Prenume:</label>
+        <input type="text" id="prenume" /><br />
+        <label class="culoare" for="nume">Nume:</label>
+        <input type="text" id="nume" /><br />
+        <label class="culoare" for="sex">Sex:</label>
+        <input type="radio" id="sex" name="sex" />M
+        <input name="sex" type="radio" id="sex" />F <br />
+        <label class="culoare" for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="exemplu@yahoo.com"
+        />
+        <br />
+        <label class="culoare" for="telefon">Telefon:</label>
+        <input type="text" id="telefon" />
+      </fieldset>
+      <fieldset>
+        <legend class="culoare">
+          Descrieti, pe scurt, problema dumneavoastra:
+        </legend>
+        <textarea name="descriere" cols="50" rows="10"></textarea>
+      </fieldset>
+      <input type="submit" value="Inregistrati programarea" />
+      <input type="reset" value="Resetati formularul" />
+    </form>
+  </body>
+</html>
