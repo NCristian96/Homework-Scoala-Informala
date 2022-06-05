@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Muli;
+  src: url(Muli.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/* CSS FOR PHOTOS */
+img {
+  width: 32.5%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.photos {
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+}
+/* CSS FOR ICONS */
+.checked {
+  color: orange;
+}
+.liked {
+  color: red;
+}
+.notliked {
+  color: #dbdbdb;
+}
+.heart {
+  margin-left: 20px;
+}
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+/* CSS FOR NUMBERS */
+.text {
+  font-family: "Muli", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #686868;
+}
+/* CSS FOR TOP TEXT */
+.wwh {
+  font-family: "Muli", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: 20px;
+}
+/* CSS FOR COLUMNS */
+#container {
+  display: flex;
+  justify-content: center;
+}
+#leftside {
+  box-sizing: border-box;
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+}
+#center {
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#rightside {
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+/* CSS FOT BOTTOM TEXT */
+button + span + br + span {
+  width: 350px;
+  font-family: "Muli", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: 17px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #686868;
+}
+/* CSS FOR BOTTOM BUTTONS */
+.cart {
+  font-family: "Muli", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 5px 25px;
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+  border: 3px solid black;
+}
+.view {
+  font-family: "Muli", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  border: 3px solid black;
+  margin-top: 40px;
+  box-sizing: border-box;
+  padding: 5px 25px;
+  color: black;
+  margin-left: 10px;
+}
