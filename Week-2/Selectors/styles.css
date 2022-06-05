@@ -1,0 +1,28 @@
+* {
+  background-color: grey;
+}
+
+a {
+  display: block;
+}
+
+div {
+  color: #22d143;
+}
+
+#container {
+  color: #671324;
+}
+
+p + a::first-letter {
+  color: #c016ba;
+}
+
+li > a[href*="en-US"] > .red {
+  color: aqua;
+}
+
+#container div > p > a:hover {
+  color: #671324;
+  font-size: larger;
+}
