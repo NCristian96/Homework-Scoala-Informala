@@ -1,0 +1,25 @@
+* {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  height: 1.8rem;
+}
+.table {
+  padding: 1rem;
+  background-color: rgb(235, 235, 235);
+}
+
+.one {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 136);
+}
+
+.two {
+  border-radius: 5px;
+  background-color: lightseagreen;
+}
+
+.four {
+  border-radius: 5px;
+  background-color: rgb(5, 5, 226);
+}
